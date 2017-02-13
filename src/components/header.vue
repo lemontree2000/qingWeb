@@ -1,9 +1,15 @@
 <template>
   <nav>
     <ul>
-      <li>首页</li>
-      <li>新闻</li>
-      <li>关于</li>
+      <li>
+        <router-link to="/hello">首页</router-link>
+      </li>
+      <li>
+        <router-link to="/news">新闻</router-link>
+      </li>
+      <li>
+        <router-link to="/my">关于</router-link>
+      </li>
     </ul>
   </nav>
 </template>
@@ -34,6 +40,13 @@
   }
   ul li:nth-last-child(1) {
     border: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .active {
+    color: red;
   }
 
 </style>

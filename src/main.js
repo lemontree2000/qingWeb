@@ -11,3 +11,5 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+router.push('hello')

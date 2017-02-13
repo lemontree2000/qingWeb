@@ -11,7 +11,10 @@ import myHeader from './components/header'
 
 export default {
   name: 'app',
-  components: { myHeader }
+  components: {
+    myHeader
+  }
+
 }
 </script>
 
@@ -28,4 +31,5 @@ export default {
     width: 100px;
     margin-bottom: 20px;
   }
+
 </style>
